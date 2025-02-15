@@ -37,7 +37,7 @@ ________
 9. Inside `Data > CubeBlocks` delete the `.sbc` files for DLCs you don't own (*Note. CubeBlocks_Doors.sbc is required*)
 ![Deleting](https://github.com/user-attachments/assets/875e2a56-d3f9-4423-a599-4d8c1492e29e)
 
-10. Your mod should now appear at the top of your mods list. **Enjoy!** <sub> (*For multiplayer please publish it privately, to avoid cluttering the workshop with duplicates*) </sub>
+10. Launch SE, your mod should now appear at the top of your mods list. **Enjoy!** <sub> (*For multiplayer please publish it privately, to avoid cluttering the workshop with duplicates*) </sub>
 ![image](https://github.com/user-attachments/assets/f6cc1159-a260-46ea-9d9f-c93aa04b502c)
 
 
