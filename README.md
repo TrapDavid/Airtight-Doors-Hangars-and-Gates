@@ -19,7 +19,7 @@ Navigate to SpaceEngineers and enter the folder
 Navigate to Mods and enter the folder
 ![Mods Folder](https://github.com/user-attachments/assets/b5ae60c3-9b57-42a9-8731-cc016bca40f1)
 
-Create a new folder to contain your mod files (in this case "YourNewMod") and enter it (note: it can be named whatever you like)
+Create a new folder to contain your mod files (in this case "YourNewMod") and enter it
 ![YourNewMod](https://github.com/user-attachments/assets/99861c6b-985a-4b81-8cca-911b395fd16f)
 
 Within your new Mod Folder, create a directory called "Data", and enter it (Note: this is case sensitive)
