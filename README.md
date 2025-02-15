@@ -10,46 +10,37 @@ This guide will show you how to introduce your own fork. For a more detailed int
 ________
 INSTRUCTIONS
 
-1. Download this repository
+1. **Download** this repository
 ![image](https://github.com/user-attachments/assets/b4a67b2b-adfd-4caa-a783-3d5157802003)
 
-2. Extract the .Zip
+2. **Extract** the `.zip`
 ![image](https://github.com/user-attachments/assets/d7d69fae-aa90-4dcf-91f3-2eabf1b7a903)
 
-3. Cut the "Data" directory using either **CTRL + X" or by GUI as below
+3. **Move** the `Data` folder by cutting it `CTRL + X` or using the GUI
 ![image](https://github.com/user-attachments/assets/987167a1-f602-42aa-b9f6-4c7ab9b21c0d)
 
-4. On your keyboard hit **Windows + R** and type %appdata% and hit enter
+4. Press `Windows + R`, type `%appdata%` and hit enter
 ![image](https://github.com/user-attachments/assets/d9ea3300-74f5-44c9-bf07-2e002e195906)
 
-5. Navigate to SpaceEngineers and enter the folder
+5. Open the SpaceEngineers folder
 ![SpaceEngineers Folder](https://github.com/user-attachments/assets/62248aee-8c53-4f30-be62-9896689cd47f)
 
-6. Navigate to Mods and enter the folder
+6. Open the `Mods` folder
 ![Mods Folder](https://github.com/user-attachments/assets/b5ae60c3-9b57-42a9-8731-cc016bca40f1)
 
-7. Create a new folder to contain your mod files (in this case "YourNewMod") and enter it
+7. **Create** a new folder for your mod (e.g., `YourNewMod`) and open it
 ![YourNewMod](https://github.com/user-attachments/assets/99861c6b-985a-4b81-8cca-911b395fd16f)
 
-8. Paste the "Data" directory from Step 3 with either "CTRL + V" or by GUI as below
+8. Paste the `Data` folder `CTRL + V` or using the GUI 
 ![image](https://github.com/user-attachments/assets/9cc2c517-7214-42b5-a13b-ea5cfbc86963)
 
-9. Enter "Data" and its subdirectory "CubeBlocks" --> Delete the .sbc files for DLCs you don't own (Note. CubeBlocks_Doors.sbc is non dlc)
+9. Inside `Data > CubeBlocks` delete the `.sbc` files for DLCs you don't own (*Note. CubeBlocks_Doors.sbc is required*)
 ![Deleting](https://github.com/user-attachments/assets/875e2a56-d3f9-4423-a599-4d8c1492e29e)
 
+10. Your mod should now appear at the top of your mods list. **Enjoy!** (*For multiplayer please publish it privately, to avoid cluttering the workshop with duplicates*)
+![image](https://github.com/user-attachments/assets/f6cc1159-a260-46ea-9d9f-c93aa04b502c)
 
 
 
 
 
-________
-LEGACY INSTRUCTIONS
-
-
-
-
-
-Within your new Mod Folder, create a directory called "Data", and enter it (Note: this is case sensitive)
-Within Data, create another sub-directory called "CubeBlocks" (Note: this is case sensitive)
-This is what the finished directory should look like
-![Finished Directory](https://github.com/user-attachments/assets/cae67276-a011-4319-80bb-b4bc84c6302e)
