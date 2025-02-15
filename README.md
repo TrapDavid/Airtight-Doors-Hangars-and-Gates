@@ -1,5 +1,5 @@
 # SE1: Airtight Doors, Hangars, & Gates
-*The following is a very simple guide for customizing this mod*
+*The following is a very simple guide (10 steps!!) for customizing this mod*
 
 About two years after release, I discovered the mod requires ownership of all DLC entryways to function. Instead of maintaining separate versions for each DLC, I'm sharing the mod code and instructions on how to fork it based on the DLCs you own. This repository will be updated [alongside the original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2970981537) after each update and DLC that introduces a new entryway. 
 
