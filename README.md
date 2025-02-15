@@ -1,14 +1,12 @@
-# SE1-Airtight-Doors-Hangars-Gates
-Repo for SE1 Mod: Airtight Doors, Hangars, &amp; Gates
+# SE1: Airtight Doors, Hangars, & Gates
+*The following is a very simple guide for customizing this mod*
 
-This *simple* source code enables all vanilla entryways to be airtight.
+About two years after release, I discovered the mod requires ownership of all DLC entryways to function. Instead of maintaining separate versions for each DLC, I'm sharing the mod code and instructions on how to fork it based on the DLCs you own. This repository will be updated [alongside the original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2970981537) after each update and DLC that introduces a new entryway. 
 
-About two years after release, I discovered the mod requires ownership of all DLC entryways to function. Instead of creating separate versions for each DLC, I'm sharing the mod code and instructions on how to fork it based on the DLCs you own. This repository will be updated [alongside the original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2970981537) after each update or DLC that introduces a new entryway. 
-
-This guide will show you how to introduce your own fork. For a more detailed introduction to modding SE1 at large, [check out this guide](https://github.com/cdrch/space-engineers-fan-docs/blob/master/modding-introduction/main.md#folder-structure) or [this guide for editing SBC files](https://steamcommunity.com/sharedfiles/filedetails/?id=2292841964)
+This guide will show you how to introduce your own fork. For a more detailed introduction to modding SE1 at large, [check out this guide](https://github.com/cdrch/space-engineers-fan-docs/blob/master/modding-introduction/main.md#folder-structure) or for simple .sbc files [this guide.](https://steamcommunity.com/sharedfiles/filedetails/?id=2292841964)
 
 ________
-INSTRUCTIONS
+## INSTRUCTIONS
 
 1. **Download** this repository
 ![image](https://github.com/user-attachments/assets/b4a67b2b-adfd-4caa-a783-3d5157802003)
@@ -39,7 +37,7 @@ INSTRUCTIONS
 9. Inside `Data > CubeBlocks` delete the `.sbc` files for DLCs you don't own (*Note. CubeBlocks_Doors.sbc is required*)
 ![Deleting](https://github.com/user-attachments/assets/875e2a56-d3f9-4423-a599-4d8c1492e29e)
 
-10. Your mod should now appear at the top of your mods list. **Enjoy!** (*For multiplayer please publish it privately, to avoid cluttering the workshop with duplicates*)
+10. Your mod should now appear at the top of your mods list. **Enjoy!** <sub> (*For multiplayer please publish it privately, to avoid cluttering the workshop with duplicates*) </sub>
 ![image](https://github.com/user-attachments/assets/f6cc1159-a260-46ea-9d9f-c93aa04b502c)
 
 
