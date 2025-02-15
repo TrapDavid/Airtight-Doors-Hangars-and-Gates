@@ -34,7 +34,8 @@ INSTRUCTIONS
 8. Paste the "Data" directory from Step 3 with either "CTRL + V" or by GUI as below
 ![image](https://github.com/user-attachments/assets/9cc2c517-7214-42b5-a13b-ea5cfbc86963)
 
-9. Enter "Data" and its subdirectory "CubeBlocks" 
+9. Enter "Data" and its subdirectory "CubeBlocks" --> Delete the .sbc files for DLCs you don't own (Note. CubeBlocks_Doors.sbc is non dlc)
+![Deleting](https://github.com/user-attachments/assets/875e2a56-d3f9-4423-a599-4d8c1492e29e)
 
 
 
