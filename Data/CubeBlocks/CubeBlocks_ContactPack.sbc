@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- 205 DLC-->
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockSmallGate</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallGate</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SmallGate.dds</Icon>
+            <Description>Description_Gate</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SmallGate.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="200" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="6" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.2" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="1.8" EndX="1" EndY="2" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Front" StartX="1" StartY="0" EndX="2" EndY="0.1" />
+                <MountPoint Side="Front" StartX="1" StartY="1.9" EndX="2" EndY="2" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0" StartY="1.9" EndX="1" EndY="2" />
+                <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="2" />
+
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="2" Enabled="false" PressurizedWhenOpen="false"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SmallGate_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SmallGate_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SmallGate_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallGate</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>32</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.7</MaxOpen>
+            <OpeningSpeed>1.2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="-1.2" y="0" z ="-2" />
+            <IsAirTight>true</IsAirTight>
+            <DLC>Contact</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockEvenWideDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_EvenWideDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\EvenWideDoor.dds</Icon>
+            <Description>Description_Gate</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="4" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\EvenWideDoor.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="200" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="6" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Bottom" StartX="3" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="1" StartY="0.9" EndX="3" EndY="1" />
+                <MountPoint Side="Front" StartX="3" StartY="0" EndX="4" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="0.9" EndX="3" EndY="1" />
+                <MountPoint Side="Back" StartX="3" StartY="0" EndX="4" EndY="1" />
+
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="4" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="4" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\EvenWideDoorConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\EvenWideDoorConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\EvenWideDoorConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>EvenWideDoor</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>32</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.7</MaxOpen>
+            <OpeningSpeed>1.2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <DepressurizationEffectOffset x="-1.2" y="0" z ="-2" />
+            <IsAirTight>true</IsAirTight>
+            <DLC>Contact</DLC>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>
