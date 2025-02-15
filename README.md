@@ -14,12 +14,14 @@ INSTRUCTIONS
 ![image](https://github.com/user-attachments/assets/b4a67b2b-adfd-4caa-a783-3d5157802003)
 
 2. **Extract** the `.zip`
+
 ![image](https://github.com/user-attachments/assets/d7d69fae-aa90-4dcf-91f3-2eabf1b7a903)
 
 3. **Move** the `Data` folder by cutting it `CTRL + X` or using the GUI
 ![image](https://github.com/user-attachments/assets/987167a1-f602-42aa-b9f6-4c7ab9b21c0d)
 
 4. Press `Windows + R`, type `%appdata%` and hit enter
+
 ![image](https://github.com/user-attachments/assets/d9ea3300-74f5-44c9-bf07-2e002e195906)
 
 5. Open the SpaceEngineers folder
