@@ -34,7 +34,9 @@ INSTRUCTIONS
 8. Paste the "Data" directory from Step 3 with either "CTRL + V" or by GUI as below
 ![image](https://github.com/user-attachments/assets/9cc2c517-7214-42b5-a13b-ea5cfbc86963)
 
-9. Enter "Data" and its subdirectory "CubeBlocks"
+9. Enter "Data" and its subdirectory "CubeBlocks" 
+
+
 
 
 
