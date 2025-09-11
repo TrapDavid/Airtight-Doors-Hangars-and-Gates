@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>CorridorRoundDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CorridorRoundDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_Door.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CorridorRound_Door.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SteelPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1.1" EndY="1" />
+                <MountPoint Side="Back" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+                <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CorridorRound_Door_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CorridorRound_Door_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CorridorRound_Door_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>RoundDoor</BlockPairName>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="0" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>26</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.40</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <DepressurizationEffectOffset x="0" y="0" z ="0" />
+            <IsAirTight>true</IsAirTight>
+            <PCU>115</PCU>
+			<DLC>Fieldwork</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>CorridorRoundDoorInv</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_CorridorRoundDoorInv</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\CorridorRound_DoorInv.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CorridorRound_DoorInv.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorHangar</OpenSound>
+            <CloseSound>BlockDoorHangar</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="10" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SteelPlate" Count="30" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0.9" EndX="0.9" EndY="1" />
+                <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1.1" EndY="1" />
+                <MountPoint Side="Back" StartX="1.9" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Back" StartX="1.1" StartY="0" EndX="1.9" EndY="0.1" />
+                <MountPoint Side="Back" StartX="1.1" StartY="0.9" EndX="1.9" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CorridorRound_DoorInv_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CorridorRound_DoorInv_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CorridorRound_DoorInv_Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>RoundDoorInv</BlockPairName>
+            <MirroringBlock>CorridorRoundDoor</MirroringBlock>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <Center x="1" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>26</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>3.40</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <DepressurizationEffectOffset x="0" y="0" z ="0" />
+            <IsAirTight>true</IsAirTight>
+            <PCU>115</PCU>
+            <DLC>Fieldwork</DLC>
+            <PressurizeCube>true</PressurizeCube>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockLabDoor</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LabDoor</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LabDoorSide.DDS</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LabDoorSide.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="Girder" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="2" />s
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0" StartY="0.9" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\LabDoorSideConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LabDoorSideConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LabDoor</BlockPairName>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <Center x="0" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>1.54</MaxOpen>
+            <OpeningSpeed>3</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <DepressurizationEffectOffset x="-1.2" y="0" z ="-2" />
+            <IsAirTight>true</IsAirTight>
+            <PCU>115</PCU>
+			<DLC>Fieldwork</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockLabDoorInv</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LabDoorInv</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LabDoorSideInv.DDS</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LabDoorSideInv.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="Girder" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="Motor" Count="2" />s
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="BulletproofGlass" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.1" />
+                <MountPoint Side="Back" StartX="0" StartY="0.9" EndX="0.5" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\LabDoorSideConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LabDoorSideConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>LabDoorInv</BlockPairName>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <Center x="0" y="0" z="0" />
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>14</BuildTimeSeconds>
+            <DisassembleRatio>1</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>1.54</MaxOpen>
+            <OpeningSpeed>3</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <DepressurizationEffectOffset x="-1.2" y="0" z ="-2" />
+            <IsAirTight>true</IsAirTight>
+            <PCU>115</PCU>
+			<DLC>Fieldwork</DLC>
+        </Definition>
+     
+    </CubeBlocks>
+</Definitions>
