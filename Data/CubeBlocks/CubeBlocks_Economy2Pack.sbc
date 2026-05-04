@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<!-- Economy 2 DLC -->
+        
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockAngledDoorA</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AngledDoorA</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AngledDoor1.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AngledDoor1.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+                <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Front" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+                <MountPoint Side="Front" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="0.05" EndY="0.95" />
+                <MountPoint Side="Top" StartX="0.95" StartY="0.5" EndX="1" EndY="0.95" />
+                <MountPoint Side="Top" StartX="0" StartY="0.95" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AngledDoor1Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AngledDoor1Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AngledDoor1Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AngledDoorA</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DisassembleRatio>1.5</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>0.885</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <PressurizeCube>true</PressurizeCube>
+            <IsAirTight>true</IsAirTight>
+			<DLC>Economy2</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>LargeBlockAngledDoorB</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AngledDoorB</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AngledDoor2.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AngledDoor2.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="0.05" EndY="0.95" />
+                <MountPoint Side="Top" StartX="0.95" StartY="0.5" EndX="1" EndY="0.95" />
+                <MountPoint Side="Top" StartX="0" StartY="0.95" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.05" StartY="0" EndX="0.95" EndY="0.05" />
+                <MountPoint Side="Bottom" StartX="0.05" StartY="0.95" EndX="0.95" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AngledDoor2Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AngledDoor2Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AngledDoor2Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AngledDoorB</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DisassembleRatio>1.5</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>0.885</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <PressurizeCube>true</PressurizeCube>
+            <IsAirTight>true</IsAirTight>
+			<DLC>Economy2</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+            <Id>
+                <TypeId>Door</TypeId>
+                <SubtypeId>SmallBlockAngledDoorA</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_AngledDoorA</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\AngledDoorSmall.dds</Icon>
+            <Description>Description_Door</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="4" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Center x="2" y="0" z="2" />
+            <Model>Models\Cubes\Small\AngledDoorSmall.mwm</Model>
+            <PlaceDecals>false</PlaceDecals>
+            <OpenSound>BlockDoorSmallOpen</OpenSound>
+            <CloseSound>BlockDoorSmallClose</CloseSound>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="15" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Construction" Count="25" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="4" />
+                <MountPoint Side="Front" StartX="4" StartY="0" EndX="5" EndY="4" />
+                <MountPoint Side="Front" StartX="1" StartY="3.8" EndX="4" EndY="4" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1.5" EndY="4" />
+                <MountPoint Side="Left" StartX="1.5" StartY="0" EndX="2.5" EndY="3" />
+                <MountPoint Side="Left" StartX="2.5" StartY="0" EndX="3" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="4" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Right" StartX="1.5" StartY="0" EndX="3" EndY="4" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1.5" EndY="3" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="4" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Top" StartX="0" StartY="2.7" EndX="5" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="3" Enabled="false" PressurizedWhenOpen="false"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="3" Default="true" />
+                <MountPoint Side="Bottom" StartX="4" StartY="0" EndX="5" EndY="3" />
+                <MountPoint Side="Bottom" StartX="1" StartY="2.8" EndX="4" EndY="3" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="4" Enabled="false" PressurizedWhenOpen="false"/>
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AngledDoorSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AngledDoorSmall_Construction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>AngledDoorA</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <DisassembleRatio>1.5</DisassembleRatio>
+            <ResourceSinkGroup>Doors</ResourceSinkGroup>
+            <MaxOpen>0.885</MaxOpen>
+            <OpeningSpeed>2</OpeningSpeed>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>115</PCU>
+            <PressurizeCube>true</PressurizeCube>
+            <IsAirTight>true</IsAirTight>
+			<DLC>Economy2</DLC>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>
